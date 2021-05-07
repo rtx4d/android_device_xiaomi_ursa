@@ -25,9 +25,6 @@ TARGET_KERNEL_CONFIG := ../ursa_defconfig
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/synaptic_vendor_framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# NFC
-TARGET_USES_NQ_NFC := true
-
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 
