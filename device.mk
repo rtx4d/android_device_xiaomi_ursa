@@ -83,7 +83,8 @@ PRODUCT_PACKAGES += \
     AOSPAUrsaSystemUI \
     NoCutoutOverlay \
     UrsaFrameworks \
-    UrsaSettings
+    UrsaSettings \
+    UrsaSystemUI
 
 # Secure element
 PRODUCT_PACKAGES += \
